@@ -1,10 +1,13 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
 
 public class Player : MonoBehaviour
 {
-    private ActionBasedControllerManager[] _actionBasedControllerManager;
 
+    [SerializeField] private XRRayInteractor _teleportationInteractor = default(XRRayInteractor);
+
+    private ActionBasedControllerManager[] _actionBasedControllerManager;
     private DynamicMoveProvider _dynamicMoveProvider;
 
     private void Awake()
@@ -47,6 +50,9 @@ public class Player : MonoBehaviour
         {
             _dynamicMoveProvider.moveSpeed = 0;
         }
+
+        _teleportationInteractor.enabled = isMoving;
+
     }
 
     public bool ChangerSnapturn()
