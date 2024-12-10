@@ -2331,7 +2331,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 2
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
@@ -2415,7 +2415,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
+  m_TeleportationProvider: {fileID: 1455137449}
   m_MatchOrientation: 0
   m_MatchDirectionalInput: 1
   m_TeleportTrigger: 0
@@ -4011,6 +4011,32 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 848419387784915812, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_GroupName
+      value: Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 848419387784915812, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 238095890}
+    - target: {fileID: 848419387784915812, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_StartingGroupMembers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 848419387784915812, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_StartingGroupMembers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1161391638}
+    - target: {fileID: 1580134797806083680, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_UIScroll
+      value: 
+      objectReference: {fileID: -6756787485274679044, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
     - target: {fileID: 2261200237506009957, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
         type: 3}
       propertyPath: m_RootOrder
@@ -4084,7 +4110,7 @@ PrefabInstance:
     - target: {fileID: 6858059347785355642, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
-      value: 2
+      value: 2147483648
       objectReference: {fileID: 0}
     - target: {fileID: 7609160612737112297, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
         type: 3}
@@ -4105,6 +4131,29 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802231294923420397, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_SelectAction.m_Reference
+      value: 
+      objectReference: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: 8802231294923420397, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_UIScrollAction.m_Reference
+      value: 
+      objectReference: {fileID: -6756787485274679044, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: 8802231294923420397, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_SelectActionValue.m_Reference
+      value: 
+      objectReference: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: 8802231294923420397, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+        type: 3}
+      propertyPath: m_UIScrollAction.m_UseReference
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8842597669593673464, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
         type: 3}
@@ -4162,6 +4211,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1455137449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7312974472624871953, guid: 45f2a59523abb5c4999bc6eb4cd2fb33,
+    type: 3}
+  m_PrefabInstance: {fileID: 1455137444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1466792302
